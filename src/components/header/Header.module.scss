@@ -1,0 +1,49 @@
+.main-header {
+  background-color: #30475e;
+  height: 110vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .container,
+  .row {
+    height: 100%;
+  }
+  &__text-box {
+    font-size: 5rem;
+    color: white;
+  }
+
+  .particals {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.main-btn {
+  font-size: 2.2rem;
+  a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    line-height: 3rem;
+    transition: background 0.5s;
+    i {
+      transition: transform 0.5s;
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      background: #222831;
+      border-color: #222831;
+    }
+
+    &:hover i {
+      transform: rotate(90deg);
+    }
+  }
+}

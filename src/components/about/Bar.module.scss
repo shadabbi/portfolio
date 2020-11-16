@@ -1,0 +1,20 @@
+.bar {
+  background: #e0dbdb;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  .bar-fill {
+    height: 2.8rem;
+    width: 80%;
+    background: darken(#04c2c9, 10%);
+    .tag {
+      color: #fff;
+      width: 10rem;
+      height: 100%;
+      background: lighten(#05aeb4, 10%);
+      padding: 0.5rem;
+    }
+  }
+}

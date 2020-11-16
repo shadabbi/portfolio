@@ -1,0 +1,25 @@
+.nav {
+  border-bottom: 3px solid #f05454;
+  background-color: #222831 !important;
+  position: static;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 1.4rem;
+    a {
+      transition: all 0.5s;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.7rem;
+      padding: 1.2rem 2rem;
+
+      &:hover {
+        color: #f05454;
+      }
+    }
+  }
+}

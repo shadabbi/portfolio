@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.primary-text {
+  color: #f05454;
+}
+
+.primary-bg {
+  background-color: #f05454;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 4.2rem;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 5rem;
+  &:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    bottom: -16px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: #444649;
+  }
+}
+
+.sub-heading {
+  font-weight: 600;
+  font-size: 2.7rem;
+  color: #444649;
+}
+
+.para {
+  color: #444649;
+  font-size: 1.7rem;
+}

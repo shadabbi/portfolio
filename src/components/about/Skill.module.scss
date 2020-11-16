@@ -1,0 +1,25 @@
+.skill {
+  text-align: center;
+  color: #444649;
+  font-size: 1.7rem;
+
+  .hexa {
+    display: flex;
+    margin: 0 auto;
+    height: 120px;
+    width: 100px;
+    background: #f05454;
+    transform: rotate(90deg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    i {
+      color: #fff;
+      font-size: 5rem;
+      margin: auto;
+      transform: rotate(-90deg);
+    }
+  }
+
+  &__description {
+    margin-top: 1rem;
+  }
+}
