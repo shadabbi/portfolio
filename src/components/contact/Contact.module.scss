@@ -1,0 +1,50 @@
+.contact {
+  clip-path: polygon(50% 12%, 100% 0, 100% 100%, 0 100%, 0 0);
+  background-color: #30475e;
+  h3 {
+    color: #fff;
+    margin: 15rem 0 5rem 0;
+    &::after {
+      background: #fff !important;
+    }
+  }
+
+  .para {
+    color: #04c2c9;
+    margin: auto;
+    font-size: 1.7rem;
+  }
+
+  input {
+    font-size: 1.5rem;
+    display: block;
+    background: #1b242f;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    color: #fff;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    background: #1b242f;
+    width: 100%;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .main-btn {
+    display: flex;
+    justify-content: flex-end;
+    a {
+      padding: 5px 2.5rem;
+    }
+  }
+}

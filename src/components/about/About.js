@@ -3,6 +3,7 @@ import React from "react";
 import classes from "./About.module.scss";
 import Skill from "./Skill";
 import Bar from "./Bar";
+import shadab from "../../assets/img/shadab.jpg";
 
 function About() {
   return (
@@ -41,10 +42,7 @@ function About() {
           <div className="col-md-6">
             <div className={classes["about-person"]}>
               <div>
-                <img
-                  src="https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE3MDYzNH0"
-                  alt=""
-                />
+                <img src={shadab} alt="shadab" />
               </div>
               <h5 className="sub-heading">Who's this guy?</h5>
               <p className="para">

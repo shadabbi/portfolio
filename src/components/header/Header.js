@@ -21,7 +21,7 @@ function Header() {
                   Hello, I'm <span className="primary-text">Shadab Ali</span>.
                   <br />A full-stack web developer.
                 </p>
-                <div className={classes["main-btn"]}>
+                <div className="main-btn">
                   <a href="#">
                     View my work <i className="fas fa-arrow-right ml-3"></i>
                   </a>

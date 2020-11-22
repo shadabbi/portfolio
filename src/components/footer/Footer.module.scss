@@ -1,0 +1,22 @@
+.footer {
+  position: relative;
+  background-color: #222831;
+  .backTop {
+    background-color: #f05454;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  a {
+    padding: 2rem;
+    background: #30475e;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

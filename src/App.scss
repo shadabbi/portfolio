@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -42,4 +43,30 @@ body {
 .para {
   color: #444649;
   font-size: 1.7rem;
+}
+
+.main-btn {
+  font-size: 2.2rem;
+  a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    line-height: 3rem;
+    transition: background 0.5s;
+    i {
+      transition: transform 0.5s;
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      background: #222831;
+      border-color: #222831;
+    }
+
+    &:hover i {
+      transform: rotate(90deg);
+    }
+  }
 }

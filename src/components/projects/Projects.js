@@ -6,7 +6,7 @@ import classes from "./Projects.module.scss";
 
 function Projects() {
   return (
-    <section className={classes.projects}>
+    <section id="projects" className={classes.projects}>
       <div className="container py-5 my-5">
         <h3 className="text-color-heading section-heading animate__animated  heading-2">
           PROJECTS
